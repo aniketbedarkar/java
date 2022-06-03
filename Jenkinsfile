@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = "aniketbedarkar/hello-docger--java"
+    registry = "aniketbedarkar/hello-docker-java"
     registryCredential = 'aniket_id'
     dockerImage = ''
   }
